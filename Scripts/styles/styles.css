@@ -1,48 +1,141 @@
-/* 
 :root {
-    
-} */
+  --bgSite: #f6f6f6;
+  --bgCard: #ebe9ea;
 
-@font-face {
-    font-family: Montserrat;
-    src: url(/Assets//fontes/Montserrat-Bold.ttf);
- }
+  --white: #fff;
 
- @font-face {
-    font-family: Montserrat;
-    src: url(/Assets//fontes/Montserrat-Medium.ttf);
- }
+  --title: #181818;
+  --text: #474747;
+}
 
- @font-face {
-    font-family: Montserrat;
-    src: url(/Assets//fontes/Montserrat-SemiBold.ttf);
- }
+img {
+  width: 100%;
+  margin: auto;
+  margin-top: 25%;
+}
 
- body{
-     background-color: #F6F6F6;
- }
+.div-desconto {
+  height: 50px;
+  top: 0px;
+  background: #181818;
+}
 
- .row-header{
-     background-color: #181818;
- }
+.div-jordan-shoes {
+  height: 60px;
+  background: #f9f9f9;
+}
 
- .texto-header{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 196.19%;
-    color: #F6F6F6;
- }
+.paragrafo-jordan-shoes {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 47px;
+  color: #181818;
+}
 
- .row-banner{
-    background-image: url(/Assets/imagens/wallpaper.jpeg);
-     background-color: #181818;
-     height: 378px;
-     opacity: 0.6;
-     background-repeat: no-repeat;
- }
+.paragrafo-desconto {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 31px;
+  color: #f9f9f9;
+  margin: auto;
+}
 
+.div-principal {
+  height: 378px;
+  background: #181818;
+}
+
+.img-background {
+  background-image: url("/Assets/imagens/wallpaper.jpeg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.6;
+}
+
+.div-melhor-loja {
+  position: absolute;
+  top: 280px;
+}
+
+.titulo-melhor-loja {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  color: #f9f9f9;
+}
+
+#paragrafo-melhor-loja {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 35px;
+  align-items: center;
+  color: #f9f9f9;
+}
+
+.div-produto {
+  background-color: #ebe9ea;
+  width: 300px;
+  height: 302px;
+}
+
+.footer {
+  height: 50px;
+  background: #181818;
+  width: auto;
+}
+
+.typed-cursor {
+  color: #f9f9f9 !important;
+}
+
+.div-produto:hover img {
+  transform: scale(1.2) !important;
+  transition: 0.8s all ease !important;
+  
+}
+
+@media screen and (min-width: 300px) {
+  .mt-5 {
+    margin-top: 0px !important;
+  }
+
+  .div-produto {
+    margin-bottom: 3rem !important;
+  }
+}
 
 @media screen and (max-width: 600px) {
-    
+  .titulo-melhor-loja {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  #paragrafo-melhor-loja {
+    font-size: 16px;
+    line-height: 29px;
+  }
+
+  .footer {
+    position: relative;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 950px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+  }
 }
