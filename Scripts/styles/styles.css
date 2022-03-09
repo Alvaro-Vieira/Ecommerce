@@ -50,7 +50,7 @@ img {
 }
 
 .img-background {
-  background-image: url("/Assets/imagens/wallpaper.png");
+  background-image: url("https://alvaro-vieira.github.io/Ecommerce/Assets/imagens/wallpaper.png");
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -101,7 +101,6 @@ img {
 .div-produto:hover img {
   transform: scale(1.2) !important;
   transition: 0.8s all ease !important;
-  
 }
 
 @media screen and (min-width: 300px) {
